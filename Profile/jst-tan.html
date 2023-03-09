@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html dir="rtl" lang="ar">
+  <head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Jst Tan</title>
+    <style>
+* {box-sizing: border-box}
+body {font-family: "Lato", sans-serif;}
+
+/* Style the tab */
+.tab {
+  float: left;
+  border: 1px solid #ccc;
+  background-color: blue;
+  width: 30%;
+  height: 100%;
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+  display: block;
+  background-color: inherit;
+  color: yellow;
+  padding: 22px 16px;
+  width: 100%;
+  border: none;
+  outline: none;
+  text-align: left;
+  cursor: pointer;
+  font-size: 17px;
+}
+
+/* Create an active/current "tab button" class */
+.tab button.active {
+  background-color: green;
+}
+
+/* Style the tab content */
+.tabcontent {
+  float: left;
+  padding: 12px 12px;
+  border: 1px solid #ccc;
+  width: 70%;
+  border-left: none;
+  height: 100%;
+  display: none;
+  text-align:center;
+  color: cyan;
+  background-color: darkblue;
+}
+
+/* Clear floats after the tab */
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.tabcontent a {
+color: cyan;
+}
+    </style>
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   </head>
+<body>
+<img src="https://i.ibb.co/QKqKHWR/profile.png" style="width:320px;height:170px;float:left;">
+  <br>
+  <div style="float:center;height:120px;color:blue;">
+  <h1> جيست تان </ h1>
+  <h4> الملف الشخصي الرسمي Jst Tan على ملف JstMStudio ، مالك JstMStudio. </h4>
+  <i class = 'bx bx-location-plus'> </i> ماليزيا
+  </div>
+  <br><br><br><br>
+  <hr>
+<br><br>
+<div class="tab">
+  <button class="tablinks" onmouseover="openCity (event، 'Profile')"> الملف الشخصي </button>
+  <button class= "tablinks" onmouseover="openCity (event، 'Community')"> Community </button>
+  <button class= "tablinks" onmouseover="openCity (event، 'Social')"> اجتماعي </button>
+  <button class= "tablinks" onmouseover="openCity (event، 'Uploads')">Uploads</button>
+</div>
+
+<div id="Profile" class="tabcontent">
+<br>
+<h1> نبذة عنا </ h1>
+  <p> أنا Jst Tan من ماليزيا ، وأنا مالك JstMStudio. أنا مطور ويب مبرمج بلغات HTML و CSS و JavaScript ، وكاتب قصة ، ومنشئ فيديو على YouTube ومحرر wiki على Miraheze. هوايتي الرئيسية هي البرمجة وعيد ميلادي يوم 21 مايو. </ p>
+  <br>
+  <hr style="width: 40%;margin: auto;">
+  <br>
+  <h2> التعليم </h2>
+  <ul>
+  <li> خاص </li>
+  </ul>
+  <br>
+  <hr style="width: 40%;margin: auto;">
+  <br>
+  <h2>Social Media</h2>
+<ul style="text-align: center;">
+<a href="https://www.facebook.com/JestonJst"> <li> Facebook </li> </a>
+<a href="https://www.instagram.com/jestonjst/"> <li> Instagram </li> </a>
+<a href="https://twitter.com/jestonjst"> <li> Twitter </li> </a>
+<a href="https://mastodon.social/web/@jsttan"> <li> ماستودون </li> </a>
+<a href="https://www.guilded.gg/profile/Qd5XEDk4"> <li> النقاب </li> </a>
+</ul>
+  <br>
+  <hr style="width: 40%;margin: auto;">
+  <br>
+  <h2> وسائل التواصل الاجتماعي </ h2>
+  <ul style = "text-align: center؛">
+<a href="https://www.facebook.com/JestonJst"> <li> Facebook </li> </a>
+<a href="https://www.instagram.com/jestonjst/"> <li> Instagram </li> </a>
+<a href="https://twitter.com/jestonjst"> <li> Twitter </li> </a>
+<a href="https://mastodon.social/web/@jsttan"> <li> ماستودون </ li> </a>
+<a href="https://www.guilded.gg/profile/Qd5XEDk4"> <li> النقاب </ li> </a>
+</ul>
+  <br>
+    <br>
+  <hr style="width: 40%;margin: auto;">
+  <br>
+  <h2> أفراد العائلة </h2>
+  <ul>
+  <li> خاص </li>
+  </ul>
+  <br>
+  <hr style="width: 40%;margin: auto;">
+  <br>
+  <h2> اللغات </h2>
+  <ul>
+  <li> الإنجليزية </li>
+  <li> الصينية </li>
+  </ul>
+</div>
+
+<div id = "Community" class = "tabcontent">
+<br>
+<h1> المجتمع </h1>
+  <p> مرحبًا بك في المجتمع الرسمي لـ Jst Tan. مكان للنقاش حول Jst Tan ولمحبي وأصدقاء Jst Tan. </p>
+  <br>
+  <hr>
+  <br>
+  <h2> المعجبون </h2>
+  <ul>
+  <li> مثال </li>
+  <li> مثال </li>
+  </ul>
+  <br>
+  <hr>
+  <br>
+  <h2> قسم التعليق </h2>
+  <div id = "graphcomment"></div>
+<script type="text/javascript">
+  /* - - - CONFIGURATION VARIABLES - - - */
+
+  var __semio__params = {
+    graphcommentId: "Official-Websites", // make sure the id is yours
+
+    behaviour: {
+      // HIGHLY RECOMMENDED
+      //  uid: "...", // uniq identifer for the comments thread on your page (ex: your page id)
+    },
+
+    // configure your variables here
+
+  }
+
+  /* - - - DON'T EDIT BELOW THIS LINE - - - */
+
+  function __semio__onload() {
+    __semio__gc_graphlogin(__semio__params)
+  }
+
+
+  (function() {
+    var gc = document.createElement('script'); gc.type = 'text/javascript'; gc.async = true;
+    gc.onload = __semio__onload; gc.defer = true; gc.src = 'https://integration.graphcomment.com/gc_graphlogin.js?' + Date.now();
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(gc);
+  })();
+</script>
+<br>
+</div>
+
+<div id = "Social" class = "tabcontent">
+<br>
+<h1> اجتماعي </h1>
+  <p> مرحبًا بك في Jst Tan social! مكان للتحقق من جميع المشاركات التي تم إجراؤها بواسطة Jst Tan. مكان للحصول على ذروة التسلل والإعلانات والتحديثات من Jst Tan. </p>
+  <br>
+  <hr>
+  <br>
+  <h2> المشاركات </h2>
+  <br>
+  <div style="background-color: yellow;padding: 16px;color: blue;">
+        <! --- غيّر هذا إلى عنوان مشاركتك --->
+        <h3 id="firstpost"> هذه أول مشاركة لي. </ h3> <br>
+        <! --- غيّر هذا إلى الترجمة --->
+        <p> مرحبًا! هذا هو أول وظيفة. يسعدني أن أكون مشروعًا اجتماعيًا. </ p> <br>
+        <! --- غيّر هذا إلى نص المنشور أو الوصف --->
+        <hr style="width: 40%;text-align: center;margin-left: auto;margin-right: auto;">
+        <div data-lyket-type="like" data-lyket-namespace="template" data-lyket-id="everybody-like-now" data-lyket-color="cyan" />
+        <button onclick="copyToClipboard ()"> نسخ الرابط </button>
+        <script src="https://unpkg.com/@lyket/widget@latest/dist/lyket.js؟apiKey=pt_eb09eedd724c781b92b6e026928ca4"> </script>
+
+        <script>
+        function copyToClipboard(text) {
+            var inputc = document.body.appendChild(document.createElement("input"));
+            inputc.value = window.location.href;
+            inputc.focus();
+            inputc.select();
+            document.execCommand('copy');
+            inputc.parentNode.removeChild(inputc);
+            alert("URL Copied.");
+        }
+        </script>
+        </div>
+        </div>
+<br>
+</div>
+
+<div id = "Uploads" class = "tabcontent">
+<br>
+<h1> تحميلات </ h1>
+  <p> مرحبًا بك في تحميلات Jst Tan! مكان للتحقق من جميع التحميلات التي قام بها Jst تان لمنصات JstMStudio. مكان للتحقق من جميع المحتويات التي تم تحميلها وصنعها بواسطة JstMStudio. </p>
+   <br>
+   <hr>
+   <br>
+   <h2> كتب </h2>
+   <ul>
+   <li> مثال </li>
+   <li> مثال </li>
+   </ul>
+   <br>
+   <hr>
+   <br>
+   <h2> فيديو </h2>
+   <ul>
+   <li> مثال </li>
+   <li> مثال </li>
+  </ul>
+  <br>
+</div>
+
+<div class="clearfix"></div>
+
+<script>
+function openCity(evt, cityName) {
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablinks");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" active", "");
+  }
+  document.getElementById(cityName).style.display = "block";
+  evt.currentTarget.className += " active";
+}
+</script>
+  <script src="https://swetrix.org/swetrix.js" defer></script>
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    swetrix.init('13a2nGRC9iGh')
+    swetrix.trackViews()
+  })
+</script>
+<noscript>
+  <img
+    src="https://api.swetrix.com/log/noscript?pid=bbS0szbjjP2r"
+    alt=""
+    referrerpolicy="no-referrer-when-downgrade"
+  />
+</noscript>
+
+</body>
+</html>
